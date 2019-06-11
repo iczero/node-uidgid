@@ -1,0 +1,28 @@
+{
+  "main": "index.js",
+  "dependencies": {
+    "node-addon-api": "^1.6.3",
+    "node-gyp": "^4.0.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "name": "uidgid",
+  "version": "0.1.0",
+  "description": "Get user/group information",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iczero/node-uidgid.git"
+  },
+  "keywords": [
+    "uid",
+    "gid"
+  ],
+  "author": "iczero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iczero/node-uidgid/issues"
+  },
+  "homepage": "https://github.com/iczero/node-uidgid#readme"
+}
